@@ -1,0 +1,71 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    "¿Grabar la Broma?" : {
+
+    },
+    "Adquirir Llamadas" : {
+
+    },
+    "Advertencia" : {
+
+    },
+    "Config View" : {
+
+    },
+    "En Ejecucion" : {
+
+    },
+    "Error" : {
+
+    },
+    "grabarinfo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selecciona esta opción para grabar la broma en tu móvil.\n\nNOTA: Recuerda que según los Términos y Condiciones, eres responsable de esta acción. En caso de difundir la broma una vez grabada es porque has solicitado permiso\na la persona que reciba la broma y ésta te lo ha dado.\nPulsa “Realizar Llamada” si vas a cumplir estas premisas. En caso contrario, la responsabilidad ante posibles reclamaciones a efectos legales será tuya."
+          }
+        }
+      }
+    },
+    "Introduce el número o selecciona un contacto" : {
+
+    },
+    "JokesPhone" : {
+
+    },
+    "Listado" : {
+
+    },
+    "Mis Llamadas" : {
+
+    },
+    "No Contestada" : {
+
+    },
+    "OK" : {
+
+    },
+    "Programada" : {
+
+    },
+    "Realizar Llamada" : {
+
+    },
+    "Shop View" : {
+
+    },
+    "Términos y condiciones" : {
+
+    },
+    "Tienes %lld llamadas!" : {
+
+    }
+  },
+  "version" : "1.0"
+}

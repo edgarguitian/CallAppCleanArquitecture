@@ -1,0 +1,1696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D1232142B7B89A200A58092 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1232132B7B89A200A58092 /* SoundPlayer.swift */; };
+		6D1232172B7B941B00A58092 /* UserStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1232162B7B941B00A58092 /* UserStatus.swift */; };
+		6D1232192B7B942D00A58092 /* GetStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1232182B7B942D00A58092 /* GetStatus.swift */; };
+		6D12321C2B7B946500A58092 /* GetStatusType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D12321B2B7B946500A58092 /* GetStatusType.swift */; };
+		6D12321E2B7B948700A58092 /* UserStatusRepositoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D12321D2B7B948700A58092 /* UserStatusRepositoryType.swift */; };
+		6D1232212B7B950400A58092 /* UserStatusRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1232202B7B950400A58092 /* UserStatusRepository.swift */; };
+		6D1232242B7B955900A58092 /* APIUserStatusDataSourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1232232B7B955900A58092 /* APIUserStatusDataSourceType.swift */; };
+		6D1232262B7B958A00A58092 /* UserStatusDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1232252B7B958A00A58092 /* UserStatusDTO.swift */; };
+		6D1232282B7B95D500A58092 /* UserStatusResultMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1232272B7B95D500A58092 /* UserStatusResultMapper.swift */; };
+		6D12322A2B7B965800A58092 /* APIUserStatusDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1232292B7B965800A58092 /* APIUserStatusDataSource.swift */; };
+		6D12322D2B7B96E000A58092 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D12322C2B7B96E000A58092 /* SplashViewModel.swift */; };
+		6D12322F2B7B978000A58092 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D12322E2B7B978000A58092 /* SplashView.swift */; };
+		6D1232322B7B982200A58092 /* CreateMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1232312B7B982100A58092 /* CreateMainView.swift */; };
+		6D1232342B7B986000A58092 /* SplashFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1232332B7B986000A58092 /* SplashFactory.swift */; };
+		6D1232362B7B995000A58092 /* MainViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1232352B7B995000A58092 /* MainViewFactory.swift */; };
+		6D3C53EB2B7692C300B6E09D /* UserPranksStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3C53EA2B7692C300B6E09D /* UserPranksStateView.swift */; };
+		6D703BD42B7BCDAE002A7006 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D703BD32B7BCDAE002A7006 /* UserDefaultsManager.swift */; };
+		6D703BD62B7BD2E5002A7006 /* ConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D703BD52B7BD2E5002A7006 /* ConfigView.swift */; };
+		6D703BDA2B7BD313002A7006 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D703BD92B7BD313002A7006 /* ShopView.swift */; };
+		6D703BDC2B7BD320002A7006 /* CreateConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D703BDB2B7BD320002A7006 /* CreateConfigView.swift */; };
+		6D703BDE2B7BD326002A7006 /* CreateShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D703BDD2B7BD326002A7006 /* CreateShopView.swift */; };
+		6D703BE02B7BD402002A7006 /* ConfigFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D703BDF2B7BD402002A7006 /* ConfigFactory.swift */; };
+		6D703BE22B7BD42E002A7006 /* ShopFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D703BE12B7BD42E002A7006 /* ShopFactory.swift */; };
+		6D703BE42B7BD75E002A7006 /* GetCredit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D703BE32B7BD75E002A7006 /* GetCredit.swift */; };
+		6D703BE62B7BD764002A7006 /* UserCredit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D703BE52B7BD764002A7006 /* UserCredit.swift */; };
+		6D703BE92B7BD790002A7006 /* GetCreditType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D703BE82B7BD790002A7006 /* GetCreditType.swift */; };
+		6D729A932B7CB348005CE25E /* SplashViewErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D729A922B7CB348005CE25E /* SplashViewErrorTests.swift */; };
+		6D729A9D2B7CB784005CE25E /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D729A9C2B7CB784005CE25E /* DownloadManager.swift */; };
+		6D729AA02B7CE76F005CE25E /* SplashViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D729A9F2B7CE76F005CE25E /* SplashViewTests.swift */; };
+		6D729AB52B7CEAF1005CE25E /* GetStatusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D729AB42B7CEAF1005CE25E /* GetStatusTests.swift */; };
+		6D729AB92B7CEB3D005CE25E /* APIUserStatusDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D729AB82B7CEB3D005CE25E /* APIUserStatusDataSourceTests.swift */; };
+		6D729ABB2B7CEB50005CE25E /* UserStatusRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D729ABA2B7CEB50005CE25E /* UserStatusRepositoryTests.swift */; };
+		6D729ABD2B7CEB64005CE25E /* Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D729ABC2B7CEB64005CE25E /* Equatable.swift */; };
+		6D729ABF2B7CF002005CE25E /* UserStatusRepositoryStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D729ABE2B7CF002005CE25E /* UserStatusRepositoryStub.swift */; };
+		6D729AC12B7CF29C005CE25E /* APIUserStatusDataSourceStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D729AC02B7CF29C005CE25E /* APIUserStatusDataSourceStub.swift */; };
+		6D9E35DA2B74C2EA000D6925 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 6D9E35D92B74C2EA000D6925 /* Fonts */; };
+		6D9E35DC2B74C4EF000D6925 /* JokeDialplanPresentableMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E35DB2B74C4EF000D6925 /* JokeDialplanPresentableMapper.swift */; };
+		6D9E35DE2B74E463000D6925 /* BottomCreditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E35DD2B74E463000D6925 /* BottomCreditView.swift */; };
+		6D9E35E12B75397D000D6925 /* DialplanDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E35E02B75397D000D6925 /* DialplanDetailView.swift */; };
+		6D9E35E32B753ACA000D6925 /* CreateDialplanDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E35E22B753ACA000D6925 /* CreateDialplanDetailView.swift */; };
+		6D9E35E52B753B51000D6925 /* DialplanDetailFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E35E42B753B51000D6925 /* DialplanDetailFactory.swift */; };
+		6D9E35E72B753BA2000D6925 /* DialplanDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E35E62B753BA2000D6925 /* DialplanDetailViewModel.swift */; };
+		6D9E35EA2B7541D1000D6925 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 6D9E35E92B7541D1000D6925 /* Localizable.xcstrings */; };
+		6D9E35EC2B754D31000D6925 /* MakeCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E35EB2B754D31000D6925 /* MakeCall.swift */; };
+		6D9E35EE2B754D61000D6925 /* MakeCallResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E35ED2B754D61000D6925 /* MakeCallResult.swift */; };
+		6D9E35F02B754D7A000D6925 /* MakeCallType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E35EF2B754D7A000D6925 /* MakeCallType.swift */; };
+		6D9E35F22B754D94000D6925 /* MakeCallRepositoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E35F12B754D94000D6925 /* MakeCallRepositoryType.swift */; };
+		6D9E35F42B754DD8000D6925 /* MakeCallRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E35F32B754DD8000D6925 /* MakeCallRepository.swift */; };
+		6D9E35F62B754DF5000D6925 /* APIMakeCallDataSourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E35F52B754DF5000D6925 /* APIMakeCallDataSourceType.swift */; };
+		6D9E35F82B754E16000D6925 /* MakeCallResultDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E35F72B754E16000D6925 /* MakeCallResultDTO.swift */; };
+		6D9E35FA2B754EBA000D6925 /* CallResultMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E35F92B754EBA000D6925 /* CallResultMapper.swift */; };
+		6D9E35FC2B754FAD000D6925 /* APIMakeCallDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E35FB2B754FAD000D6925 /* APIMakeCallDataSource.swift */; };
+		6D9E35FE2B7558AA000D6925 /* GetUserPranks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E35FD2B7558AA000D6925 /* GetUserPranks.swift */; };
+		6D9E36002B7558EB000D6925 /* UserPrank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E35FF2B7558EB000D6925 /* UserPrank.swift */; };
+		6D9E36022B7559ED000D6925 /* UserPrankDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E36012B7559ED000D6925 /* UserPrankDTO.swift */; };
+		6D9E36062B7621AA000D6925 /* GetUserPranksType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E36052B7621AA000D6925 /* GetUserPranksType.swift */; };
+		6D9E36082B7621CE000D6925 /* UserPranksRepositoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E36072B7621CE000D6925 /* UserPranksRepositoryType.swift */; };
+		6D9E360C2B76222A000D6925 /* UserPranksRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E360B2B76222A000D6925 /* UserPranksRepository.swift */; };
+		6D9E360F2B762291000D6925 /* APIUserPranksDataSourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E360E2B762291000D6925 /* APIUserPranksDataSourceType.swift */; };
+		6D9E36112B762308000D6925 /* UserPranksResultMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E36102B762308000D6925 /* UserPranksResultMapper.swift */; };
+		6D9E36132B762458000D6925 /* APIUserPranksDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E36122B762458000D6925 /* APIUserPranksDataSource.swift */; };
+		6D9E36162B762545000D6925 /* UserPranksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E36152B762545000D6925 /* UserPranksViewModel.swift */; };
+		6D9E36182B76263B000D6925 /* UserPrankPresentableMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E36172B76263B000D6925 /* UserPrankPresentableMapper.swift */; };
+		6D9E361A2B762674000D6925 /* UserPrankPresentableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E36192B762674000D6925 /* UserPrankPresentableItem.swift */; };
+		6D9E361D2B762817000D6925 /* UserPranksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E361C2B762817000D6925 /* UserPranksView.swift */; };
+		6D9E361F2B762826000D6925 /* UserPranksItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E361E2B762826000D6925 /* UserPranksItemView.swift */; };
+		6D9E36212B762B43000D6925 /* UserPrankFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E36202B762B43000D6925 /* UserPrankFactory.swift */; };
+		6DA0428A2B73EAEB00EB5DF0 /* jokesphoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA042892B73EAEB00EB5DF0 /* jokesphoneApp.swift */; };
+		6DA0428C2B73EAEB00EB5DF0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA0428B2B73EAEB00EB5DF0 /* MainView.swift */; };
+		6DA0428E2B73EAED00EB5DF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DA0428D2B73EAED00EB5DF0 /* Assets.xcassets */; };
+		6DA042912B73EAED00EB5DF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DA042902B73EAED00EB5DF0 /* Preview Assets.xcassets */; };
+		6DA042A92B73EBE900EB5DF0 /* Foundation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA042A82B73EBE900EB5DF0 /* Foundation+Extensions.swift */; };
+		6DA042AB2B73EC4C00EB5DF0 /* JokeDialplan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA042AA2B73EC4C00EB5DF0 /* JokeDialplan.swift */; };
+		6DA042AE2B73ED2400EB5DF0 /* GetDialplan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA042AD2B73ED2400EB5DF0 /* GetDialplan.swift */; };
+		6DA042B82B73EDAD00EB5DF0 /* GetDialplanType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA042B72B73EDAD00EB5DF0 /* GetDialplanType.swift */; };
+		6DA042BA2B73EDD800EB5DF0 /* JokesPhoneDomainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA042B92B73EDD800EB5DF0 /* JokesPhoneDomainError.swift */; };
+		6DA042BC2B73EE2600EB5DF0 /* DialplanRepositoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA042BB2B73EE2600EB5DF0 /* DialplanRepositoryType.swift */; };
+		6DA042BE2B73EED600EB5DF0 /* DialplanRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA042BD2B73EED600EB5DF0 /* DialplanRepository.swift */; };
+		6DA042C02B73EF2600EB5DF0 /* APIDialplanDataSourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA042BF2B73EF2600EB5DF0 /* APIDialplanDataSourceType.swift */; };
+		6DA042C22B73EF5E00EB5DF0 /* APIDialplanDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA042C12B73EF5E00EB5DF0 /* APIDialplanDataSource.swift */; };
+		6DA042C42B73EFA600EB5DF0 /* JokesPhoneDomainErrorMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA042C32B73EFA600EB5DF0 /* JokesPhoneDomainErrorMapper.swift */; };
+		6DA042C62B73EFE000EB5DF0 /* JokeDialplanDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA042C52B73EFE000EB5DF0 /* JokeDialplanDTO.swift */; };
+		6DA042C92B73F06600EB5DF0 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA042C82B73F06600EB5DF0 /* HTTPClient.swift */; };
+		6DA042CB2B73F07700EB5DF0 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA042CA2B73F07700EB5DF0 /* HTTPMethod.swift */; };
+		6DA042CD2B73F08500EB5DF0 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA042CC2B73F08500EB5DF0 /* Endpoint.swift */; };
+		6DA042CF2B73F09600EB5DF0 /* HTTPClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA042CE2B73F09600EB5DF0 /* HTTPClientError.swift */; };
+		6DA042D12B73F1F800EB5DF0 /* DialplanMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA042D02B73F1F800EB5DF0 /* DialplanMapper.swift */; };
+		6DA042D32B73F2DE00EB5DF0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA042D22B73F2DE00EB5DF0 /* Constants.swift */; };
+		6DA042D52B73F39C00EB5DF0 /* URLSessionRequestMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA042D42B73F39C00EB5DF0 /* URLSessionRequestMaker.swift */; };
+		6DA042D72B73F3A900EB5DF0 /* URLSessionErrorResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA042D62B73F3A900EB5DF0 /* URLSessionErrorResolver.swift */; };
+		6DA042D92B73F3B700EB5DF0 /* URLSessionHTTPCLient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA042D82B73F3B700EB5DF0 /* URLSessionHTTPCLient.swift */; };
+		6DA042DB2B73F40200EB5DF0 /* DialplanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA042DA2B73F40200EB5DF0 /* DialplanViewModel.swift */; };
+		6DA042DD2B73F52A00EB5DF0 /* JokesPhonePresentableErrorMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA042DC2B73F52900EB5DF0 /* JokesPhonePresentableErrorMapper.swift */; };
+		6DA042DF2B73F56800EB5DF0 /* DialplanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA042DE2B73F56800EB5DF0 /* DialplanView.swift */; };
+		6DA042E12B73F5CB00EB5DF0 /* LoadingSpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA042E02B73F5CB00EB5DF0 /* LoadingSpinnerView.swift */; };
+		6DA042E32B73F6C200EB5DF0 /* JokeDialplanPresentableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA042E22B73F6C200EB5DF0 /* JokeDialplanPresentableItem.swift */; };
+		6DA042E52B73F7BC00EB5DF0 /* DialplanItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA042E42B73F7BC00EB5DF0 /* DialplanItemView.swift */; };
+		6DA042E72B73F80B00EB5DF0 /* CachedAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA042E62B73F80B00EB5DF0 /* CachedAsyncImage.swift */; };
+		6DA042E92B73F85500EB5DF0 /* URLCache+imageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA042E82B73F85500EB5DF0 /* URLCache+imageCache.swift */; };
+		6DA042EB2B73F89E00EB5DF0 /* DialplanFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA042EA2B73F89E00EB5DF0 /* DialplanFactory.swift */; };
+		6DDEDFE82B7CF80D0055107B /* DialplanViewErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDEDFE72B7CF80D0055107B /* DialplanViewErrorTests.swift */; };
+		6DDEDFEA2B7CF8170055107B /* DialplanViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDEDFE92B7CF8170055107B /* DialplanViewTests.swift */; };
+		6DDEDFEC2B7D307A0055107B /* GetDialplanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDEDFEB2B7D307A0055107B /* GetDialplanTests.swift */; };
+		6DDEDFEE2B7D30850055107B /* GetCreditTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDEDFED2B7D30850055107B /* GetCreditTests.swift */; };
+		6DDEDFF02B7D30A20055107B /* DialplanRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDEDFEF2B7D30A20055107B /* DialplanRepositoryTests.swift */; };
+		6DDEDFF22B7D30B20055107B /* UserCreditRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDEDFF12B7D30B20055107B /* UserCreditRepositoryTests.swift */; };
+		6DDEDFF42B7D30C60055107B /* APIDialplanDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDEDFF32B7D30C60055107B /* APIDialplanDataSourceTests.swift */; };
+		6DDEDFF62B7D30D90055107B /* APIUserCreditDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDEDFF52B7D30D90055107B /* APIUserCreditDataSourceTests.swift */; };
+		6DDEDFF82B7D31710055107B /* DialplanRepositoryStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDEDFF72B7D31710055107B /* DialplanRepositoryStub.swift */; };
+		6DE117FD2B7E12DD00F38B4C /* APIDialplanDataSourceStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE117FC2B7E12DD00F38B4C /* APIDialplanDataSourceStub.swift */; };
+		6DE117FF2B7E16C700F38B4C /* UserCreditRepositoryStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE117FE2B7E16C700F38B4C /* UserCreditRepositoryStub.swift */; };
+		6DE118012B7E18B800F38B4C /* APIUserCreditDataSourceStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE118002B7E18B800F38B4C /* APIUserCreditDataSourceStub.swift */; };
+		6DE118032B7E1EE700F38B4C /* UserPranksRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE118022B7E1EE700F38B4C /* UserPranksRepositoryTests.swift */; };
+		6DE118052B7E1EF700F38B4C /* APIUserPranksDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE118042B7E1EF700F38B4C /* APIUserPranksDataSourceTests.swift */; };
+		6DE118072B7E1F0D00F38B4C /* GetUserPranksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE118062B7E1F0D00F38B4C /* GetUserPranksTests.swift */; };
+		6DE118092B7E1F7900F38B4C /* UserPranksRepositoryStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE118082B7E1F7900F38B4C /* UserPranksRepositoryStub.swift */; };
+		6DE1180B2B7E247800F38B4C /* APIUserPranksDataSourceStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1180A2B7E247800F38B4C /* APIUserPranksDataSourceStub.swift */; };
+		6DE1180D2B7E261900F38B4C /* MakeCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1180C2B7E261900F38B4C /* MakeCallTests.swift */; };
+		6DE1180F2B7E267800F38B4C /* MakeCallRepositoryStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1180E2B7E267800F38B4C /* MakeCallRepositoryStub.swift */; };
+		6DE118112B7E27DC00F38B4C /* MakeCallRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE118102B7E27DC00F38B4C /* MakeCallRepositoryTests.swift */; };
+		6DE118132B7E287E00F38B4C /* APIMakeCallDataSourceStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE118122B7E287E00F38B4C /* APIMakeCallDataSourceStub.swift */; };
+		6DE118152B7E29A700F38B4C /* APIMakeCallDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE118142B7E29A700F38B4C /* APIMakeCallDataSourceTests.swift */; };
+		6DE118192B7E2AFF00F38B4C /* UserPranksErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE118182B7E2AFF00F38B4C /* UserPranksErrorTests.swift */; };
+		6DE1181B2B7E2C9B00F38B4C /* UserPranksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1181A2B7E2C9B00F38B4C /* UserPranksTests.swift */; };
+		6DE1181D2B7E426300F38B4C /* DialplanDetailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1181C2B7E426300F38B4C /* DialplanDetailTests.swift */; };
+		6DE118202B7E925D00F38B4C /* SplashViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1181F2B7E925D00F38B4C /* SplashViewModelTests.swift */; };
+		6DE118222B7F47A500F38B4C /* GetStatusStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE118212B7F47A500F38B4C /* GetStatusStub.swift */; };
+		6DE118242B7F47E700F38B4C /* JokesPhonePresentableErrorMapperStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE118232B7F47E700F38B4C /* JokesPhonePresentableErrorMapperStub.swift */; };
+		6DE118262B7F4DE200F38B4C /* BottomCreditViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE118252B7F4DE200F38B4C /* BottomCreditViewModelTests.swift */; };
+		6DE118282B7F4E4700F38B4C /* GetCreditStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE118272B7F4E4700F38B4C /* GetCreditStub.swift */; };
+		6DE1182A2B7F503D00F38B4C /* DialplanViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE118292B7F503D00F38B4C /* DialplanViewModelTests.swift */; };
+		6DE1182C2B7F50A800F38B4C /* GetDialplanStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1182B2B7F50A800F38B4C /* GetDialplanStub.swift */; };
+		6DE1182E2B7F566500F38B4C /* DialplanDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1182D2B7F566500F38B4C /* DialplanDetailViewModelTests.swift */; };
+		6DE118302B7F56A800F38B4C /* MakeCallStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1182F2B7F56A800F38B4C /* MakeCallStub.swift */; };
+		6DE118322B7F58C700F38B4C /* UserPranksViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE118312B7F58C700F38B4C /* UserPranksViewModelTests.swift */; };
+		6DE118342B7F58F600F38B4C /* GetUserPranksStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE118332B7F58F600F38B4C /* GetUserPranksStub.swift */; };
+		6DE118372B7F5D0E00F38B4C /* JokesPhonePresentableErrorMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE118362B7F5D0E00F38B4C /* JokesPhonePresentableErrorMapperTests.swift */; };
+		6DE118392B7F5DCE00F38B4C /* JokeDialplanPresentableMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE118382B7F5DCE00F38B4C /* JokeDialplanPresentableMapperTests.swift */; };
+		6DE1183F2B7F605C00F38B4C /* UserPrankPresentableMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE1183E2B7F605C00F38B4C /* UserPrankPresentableMapperTests.swift */; };
+		6DEE40B42B7BD7D600AE7853 /* UserCreditRepositoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE40B32B7BD7D600AE7853 /* UserCreditRepositoryType.swift */; };
+		6DEE40B72B7BD8A000AE7853 /* UserCreditRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE40B62B7BD8A000AE7853 /* UserCreditRepository.swift */; };
+		6DEE40BA2B7BD90E00AE7853 /* APIUserCreditDataSourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE40B92B7BD90E00AE7853 /* APIUserCreditDataSourceType.swift */; };
+		6DEE40BC2B7BD92800AE7853 /* UserCreditDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE40BB2B7BD92800AE7853 /* UserCreditDTO.swift */; };
+		6DEE40BE2B7BD96100AE7853 /* UserCreditResultMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE40BD2B7BD96100AE7853 /* UserCreditResultMapper.swift */; };
+		6DEE40C02B7BD99200AE7853 /* APIUserCreditDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE40BF2B7BD99200AE7853 /* APIUserCreditDataSource.swift */; };
+		6DEE40C32B7BDA5E00AE7853 /* BottomCreditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE40C22B7BDA5E00AE7853 /* BottomCreditViewModel.swift */; };
+		6DEE40C52B7BDB7000AE7853 /* BottomCreditFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE40C42B7BDB7000AE7853 /* BottomCreditFactory.swift */; };
+		6DEE40C82B7BDCAD00AE7853 /* CreateBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEE40C72B7BDCAD00AE7853 /* CreateBottomView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D729A942B7CB348005CE25E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DA0427E2B73EAEB00EB5DF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DA042852B73EAEB00EB5DF0;
+			remoteInfo = jokesphone;
+		};
+		6D729AA92B7CEA60005CE25E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DA0427E2B73EAEB00EB5DF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DA042852B73EAEB00EB5DF0;
+			remoteInfo = jokesphone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D1232132B7B89A200A58092 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		6D1232152B7B8FB400A58092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6D1232162B7B941B00A58092 /* UserStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatus.swift; sourceTree = "<group>"; };
+		6D1232182B7B942D00A58092 /* GetStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStatus.swift; sourceTree = "<group>"; };
+		6D12321B2B7B946500A58092 /* GetStatusType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStatusType.swift; sourceTree = "<group>"; };
+		6D12321D2B7B948700A58092 /* UserStatusRepositoryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatusRepositoryType.swift; sourceTree = "<group>"; };
+		6D1232202B7B950400A58092 /* UserStatusRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatusRepository.swift; sourceTree = "<group>"; };
+		6D1232232B7B955900A58092 /* APIUserStatusDataSourceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUserStatusDataSourceType.swift; sourceTree = "<group>"; };
+		6D1232252B7B958A00A58092 /* UserStatusDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatusDTO.swift; sourceTree = "<group>"; };
+		6D1232272B7B95D500A58092 /* UserStatusResultMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatusResultMapper.swift; sourceTree = "<group>"; };
+		6D1232292B7B965800A58092 /* APIUserStatusDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUserStatusDataSource.swift; sourceTree = "<group>"; };
+		6D12322C2B7B96E000A58092 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		6D12322E2B7B978000A58092 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		6D1232312B7B982100A58092 /* CreateMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMainView.swift; sourceTree = "<group>"; };
+		6D1232332B7B986000A58092 /* SplashFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashFactory.swift; sourceTree = "<group>"; };
+		6D1232352B7B995000A58092 /* MainViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewFactory.swift; sourceTree = "<group>"; };
+		6D3C53EA2B7692C300B6E09D /* UserPranksStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPranksStateView.swift; sourceTree = "<group>"; };
+		6D703BD32B7BCDAE002A7006 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		6D703BD52B7BD2E5002A7006 /* ConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigView.swift; sourceTree = "<group>"; };
+		6D703BD92B7BD313002A7006 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		6D703BDB2B7BD320002A7006 /* CreateConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateConfigView.swift; sourceTree = "<group>"; };
+		6D703BDD2B7BD326002A7006 /* CreateShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateShopView.swift; sourceTree = "<group>"; };
+		6D703BDF2B7BD402002A7006 /* ConfigFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigFactory.swift; sourceTree = "<group>"; };
+		6D703BE12B7BD42E002A7006 /* ShopFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopFactory.swift; sourceTree = "<group>"; };
+		6D703BE32B7BD75E002A7006 /* GetCredit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCredit.swift; sourceTree = "<group>"; };
+		6D703BE52B7BD764002A7006 /* UserCredit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCredit.swift; sourceTree = "<group>"; };
+		6D703BE82B7BD790002A7006 /* GetCreditType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCreditType.swift; sourceTree = "<group>"; };
+		6D729A8E2B7CB348005CE25E /* jokesphoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jokesphoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D729A922B7CB348005CE25E /* SplashViewErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewErrorTests.swift; sourceTree = "<group>"; };
+		6D729A9C2B7CB784005CE25E /* DownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
+		6D729A9F2B7CE76F005CE25E /* SplashViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewTests.swift; sourceTree = "<group>"; };
+		6D729AA52B7CEA60005CE25E /* jokesphoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jokesphoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D729AB42B7CEAF1005CE25E /* GetStatusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStatusTests.swift; sourceTree = "<group>"; };
+		6D729AB82B7CEB3D005CE25E /* APIUserStatusDataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUserStatusDataSourceTests.swift; sourceTree = "<group>"; };
+		6D729ABA2B7CEB50005CE25E /* UserStatusRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatusRepositoryTests.swift; sourceTree = "<group>"; };
+		6D729ABC2B7CEB64005CE25E /* Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equatable.swift; sourceTree = "<group>"; };
+		6D729ABE2B7CF002005CE25E /* UserStatusRepositoryStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatusRepositoryStub.swift; sourceTree = "<group>"; };
+		6D729AC02B7CF29C005CE25E /* APIUserStatusDataSourceStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUserStatusDataSourceStub.swift; sourceTree = "<group>"; };
+		6D9E35D92B74C2EA000D6925 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = jokesphone/Fonts; sourceTree = "<group>"; };
+		6D9E35DB2B74C4EF000D6925 /* JokeDialplanPresentableMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeDialplanPresentableMapper.swift; sourceTree = "<group>"; };
+		6D9E35DD2B74E463000D6925 /* BottomCreditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCreditView.swift; sourceTree = "<group>"; };
+		6D9E35E02B75397D000D6925 /* DialplanDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialplanDetailView.swift; sourceTree = "<group>"; };
+		6D9E35E22B753ACA000D6925 /* CreateDialplanDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDialplanDetailView.swift; sourceTree = "<group>"; };
+		6D9E35E42B753B51000D6925 /* DialplanDetailFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialplanDetailFactory.swift; sourceTree = "<group>"; };
+		6D9E35E62B753BA2000D6925 /* DialplanDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialplanDetailViewModel.swift; sourceTree = "<group>"; };
+		6D9E35E92B7541D1000D6925 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		6D9E35EB2B754D31000D6925 /* MakeCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeCall.swift; sourceTree = "<group>"; };
+		6D9E35ED2B754D61000D6925 /* MakeCallResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeCallResult.swift; sourceTree = "<group>"; };
+		6D9E35EF2B754D7A000D6925 /* MakeCallType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeCallType.swift; sourceTree = "<group>"; };
+		6D9E35F12B754D94000D6925 /* MakeCallRepositoryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeCallRepositoryType.swift; sourceTree = "<group>"; };
+		6D9E35F32B754DD8000D6925 /* MakeCallRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeCallRepository.swift; sourceTree = "<group>"; };
+		6D9E35F52B754DF5000D6925 /* APIMakeCallDataSourceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIMakeCallDataSourceType.swift; sourceTree = "<group>"; };
+		6D9E35F72B754E16000D6925 /* MakeCallResultDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeCallResultDTO.swift; sourceTree = "<group>"; };
+		6D9E35F92B754EBA000D6925 /* CallResultMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallResultMapper.swift; sourceTree = "<group>"; };
+		6D9E35FB2B754FAD000D6925 /* APIMakeCallDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIMakeCallDataSource.swift; sourceTree = "<group>"; };
+		6D9E35FD2B7558AA000D6925 /* GetUserPranks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUserPranks.swift; sourceTree = "<group>"; };
+		6D9E35FF2B7558EB000D6925 /* UserPrank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPrank.swift; sourceTree = "<group>"; };
+		6D9E36012B7559ED000D6925 /* UserPrankDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPrankDTO.swift; sourceTree = "<group>"; };
+		6D9E36052B7621AA000D6925 /* GetUserPranksType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUserPranksType.swift; sourceTree = "<group>"; };
+		6D9E36072B7621CE000D6925 /* UserPranksRepositoryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPranksRepositoryType.swift; sourceTree = "<group>"; };
+		6D9E360B2B76222A000D6925 /* UserPranksRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPranksRepository.swift; sourceTree = "<group>"; };
+		6D9E360E2B762291000D6925 /* APIUserPranksDataSourceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUserPranksDataSourceType.swift; sourceTree = "<group>"; };
+		6D9E36102B762308000D6925 /* UserPranksResultMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPranksResultMapper.swift; sourceTree = "<group>"; };
+		6D9E36122B762458000D6925 /* APIUserPranksDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUserPranksDataSource.swift; sourceTree = "<group>"; };
+		6D9E36152B762545000D6925 /* UserPranksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPranksViewModel.swift; sourceTree = "<group>"; };
+		6D9E36172B76263B000D6925 /* UserPrankPresentableMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPrankPresentableMapper.swift; sourceTree = "<group>"; };
+		6D9E36192B762674000D6925 /* UserPrankPresentableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPrankPresentableItem.swift; sourceTree = "<group>"; };
+		6D9E361C2B762817000D6925 /* UserPranksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPranksView.swift; sourceTree = "<group>"; };
+		6D9E361E2B762826000D6925 /* UserPranksItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPranksItemView.swift; sourceTree = "<group>"; };
+		6D9E36202B762B43000D6925 /* UserPrankFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPrankFactory.swift; sourceTree = "<group>"; };
+		6DA042862B73EAEB00EB5DF0 /* jokesphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jokesphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA042892B73EAEB00EB5DF0 /* jokesphoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jokesphoneApp.swift; sourceTree = "<group>"; };
+		6DA0428B2B73EAEB00EB5DF0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		6DA0428D2B73EAED00EB5DF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DA042902B73EAED00EB5DF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6DA042A82B73EBE900EB5DF0 /* Foundation+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation+Extensions.swift"; sourceTree = "<group>"; };
+		6DA042AA2B73EC4C00EB5DF0 /* JokeDialplan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeDialplan.swift; sourceTree = "<group>"; };
+		6DA042AD2B73ED2400EB5DF0 /* GetDialplan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDialplan.swift; sourceTree = "<group>"; };
+		6DA042B72B73EDAD00EB5DF0 /* GetDialplanType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDialplanType.swift; sourceTree = "<group>"; };
+		6DA042B92B73EDD800EB5DF0 /* JokesPhoneDomainError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesPhoneDomainError.swift; sourceTree = "<group>"; };
+		6DA042BB2B73EE2600EB5DF0 /* DialplanRepositoryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialplanRepositoryType.swift; sourceTree = "<group>"; };
+		6DA042BD2B73EED600EB5DF0 /* DialplanRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialplanRepository.swift; sourceTree = "<group>"; };
+		6DA042BF2B73EF2600EB5DF0 /* APIDialplanDataSourceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDialplanDataSourceType.swift; sourceTree = "<group>"; };
+		6DA042C12B73EF5E00EB5DF0 /* APIDialplanDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDialplanDataSource.swift; sourceTree = "<group>"; };
+		6DA042C32B73EFA600EB5DF0 /* JokesPhoneDomainErrorMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesPhoneDomainErrorMapper.swift; sourceTree = "<group>"; };
+		6DA042C52B73EFE000EB5DF0 /* JokeDialplanDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeDialplanDTO.swift; sourceTree = "<group>"; };
+		6DA042C82B73F06600EB5DF0 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		6DA042CA2B73F07700EB5DF0 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		6DA042CC2B73F08500EB5DF0 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		6DA042CE2B73F09600EB5DF0 /* HTTPClientError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientError.swift; sourceTree = "<group>"; };
+		6DA042D02B73F1F800EB5DF0 /* DialplanMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialplanMapper.swift; sourceTree = "<group>"; };
+		6DA042D22B73F2DE00EB5DF0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6DA042D42B73F39C00EB5DF0 /* URLSessionRequestMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionRequestMaker.swift; sourceTree = "<group>"; };
+		6DA042D62B73F3A900EB5DF0 /* URLSessionErrorResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionErrorResolver.swift; sourceTree = "<group>"; };
+		6DA042D82B73F3B700EB5DF0 /* URLSessionHTTPCLient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPCLient.swift; sourceTree = "<group>"; };
+		6DA042DA2B73F40200EB5DF0 /* DialplanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialplanViewModel.swift; sourceTree = "<group>"; };
+		6DA042DC2B73F52900EB5DF0 /* JokesPhonePresentableErrorMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesPhonePresentableErrorMapper.swift; sourceTree = "<group>"; };
+		6DA042DE2B73F56800EB5DF0 /* DialplanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialplanView.swift; sourceTree = "<group>"; };
+		6DA042E02B73F5CB00EB5DF0 /* LoadingSpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingSpinnerView.swift; sourceTree = "<group>"; };
+		6DA042E22B73F6C200EB5DF0 /* JokeDialplanPresentableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeDialplanPresentableItem.swift; sourceTree = "<group>"; };
+		6DA042E42B73F7BC00EB5DF0 /* DialplanItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialplanItemView.swift; sourceTree = "<group>"; };
+		6DA042E62B73F80B00EB5DF0 /* CachedAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedAsyncImage.swift; sourceTree = "<group>"; };
+		6DA042E82B73F85500EB5DF0 /* URLCache+imageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLCache+imageCache.swift"; sourceTree = "<group>"; };
+		6DA042EA2B73F89E00EB5DF0 /* DialplanFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialplanFactory.swift; sourceTree = "<group>"; };
+		6DDEDFE72B7CF80D0055107B /* DialplanViewErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialplanViewErrorTests.swift; sourceTree = "<group>"; };
+		6DDEDFE92B7CF8170055107B /* DialplanViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialplanViewTests.swift; sourceTree = "<group>"; };
+		6DDEDFEB2B7D307A0055107B /* GetDialplanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDialplanTests.swift; sourceTree = "<group>"; };
+		6DDEDFED2B7D30850055107B /* GetCreditTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCreditTests.swift; sourceTree = "<group>"; };
+		6DDEDFEF2B7D30A20055107B /* DialplanRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialplanRepositoryTests.swift; sourceTree = "<group>"; };
+		6DDEDFF12B7D30B20055107B /* UserCreditRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCreditRepositoryTests.swift; sourceTree = "<group>"; };
+		6DDEDFF32B7D30C60055107B /* APIDialplanDataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDialplanDataSourceTests.swift; sourceTree = "<group>"; };
+		6DDEDFF52B7D30D90055107B /* APIUserCreditDataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUserCreditDataSourceTests.swift; sourceTree = "<group>"; };
+		6DDEDFF72B7D31710055107B /* DialplanRepositoryStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialplanRepositoryStub.swift; sourceTree = "<group>"; };
+		6DE117FC2B7E12DD00F38B4C /* APIDialplanDataSourceStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDialplanDataSourceStub.swift; sourceTree = "<group>"; };
+		6DE117FE2B7E16C700F38B4C /* UserCreditRepositoryStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCreditRepositoryStub.swift; sourceTree = "<group>"; };
+		6DE118002B7E18B800F38B4C /* APIUserCreditDataSourceStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUserCreditDataSourceStub.swift; sourceTree = "<group>"; };
+		6DE118022B7E1EE700F38B4C /* UserPranksRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPranksRepositoryTests.swift; sourceTree = "<group>"; };
+		6DE118042B7E1EF700F38B4C /* APIUserPranksDataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUserPranksDataSourceTests.swift; sourceTree = "<group>"; };
+		6DE118062B7E1F0D00F38B4C /* GetUserPranksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUserPranksTests.swift; sourceTree = "<group>"; };
+		6DE118082B7E1F7900F38B4C /* UserPranksRepositoryStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPranksRepositoryStub.swift; sourceTree = "<group>"; };
+		6DE1180A2B7E247800F38B4C /* APIUserPranksDataSourceStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUserPranksDataSourceStub.swift; sourceTree = "<group>"; };
+		6DE1180C2B7E261900F38B4C /* MakeCallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeCallTests.swift; sourceTree = "<group>"; };
+		6DE1180E2B7E267800F38B4C /* MakeCallRepositoryStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeCallRepositoryStub.swift; sourceTree = "<group>"; };
+		6DE118102B7E27DC00F38B4C /* MakeCallRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeCallRepositoryTests.swift; sourceTree = "<group>"; };
+		6DE118122B7E287E00F38B4C /* APIMakeCallDataSourceStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIMakeCallDataSourceStub.swift; sourceTree = "<group>"; };
+		6DE118142B7E29A700F38B4C /* APIMakeCallDataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIMakeCallDataSourceTests.swift; sourceTree = "<group>"; };
+		6DE118182B7E2AFF00F38B4C /* UserPranksErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPranksErrorTests.swift; sourceTree = "<group>"; };
+		6DE1181A2B7E2C9B00F38B4C /* UserPranksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPranksTests.swift; sourceTree = "<group>"; };
+		6DE1181C2B7E426300F38B4C /* DialplanDetailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialplanDetailTests.swift; sourceTree = "<group>"; };
+		6DE1181F2B7E925D00F38B4C /* SplashViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModelTests.swift; sourceTree = "<group>"; };
+		6DE118212B7F47A500F38B4C /* GetStatusStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStatusStub.swift; sourceTree = "<group>"; };
+		6DE118232B7F47E700F38B4C /* JokesPhonePresentableErrorMapperStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesPhonePresentableErrorMapperStub.swift; sourceTree = "<group>"; };
+		6DE118252B7F4DE200F38B4C /* BottomCreditViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCreditViewModelTests.swift; sourceTree = "<group>"; };
+		6DE118272B7F4E4700F38B4C /* GetCreditStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCreditStub.swift; sourceTree = "<group>"; };
+		6DE118292B7F503D00F38B4C /* DialplanViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialplanViewModelTests.swift; sourceTree = "<group>"; };
+		6DE1182B2B7F50A800F38B4C /* GetDialplanStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDialplanStub.swift; sourceTree = "<group>"; };
+		6DE1182D2B7F566500F38B4C /* DialplanDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialplanDetailViewModelTests.swift; sourceTree = "<group>"; };
+		6DE1182F2B7F56A800F38B4C /* MakeCallStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeCallStub.swift; sourceTree = "<group>"; };
+		6DE118312B7F58C700F38B4C /* UserPranksViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPranksViewModelTests.swift; sourceTree = "<group>"; };
+		6DE118332B7F58F600F38B4C /* GetUserPranksStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUserPranksStub.swift; sourceTree = "<group>"; };
+		6DE118362B7F5D0E00F38B4C /* JokesPhonePresentableErrorMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesPhonePresentableErrorMapperTests.swift; sourceTree = "<group>"; };
+		6DE118382B7F5DCE00F38B4C /* JokeDialplanPresentableMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeDialplanPresentableMapperTests.swift; sourceTree = "<group>"; };
+		6DE1183E2B7F605C00F38B4C /* UserPrankPresentableMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPrankPresentableMapperTests.swift; sourceTree = "<group>"; };
+		6DEE40B32B7BD7D600AE7853 /* UserCreditRepositoryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCreditRepositoryType.swift; sourceTree = "<group>"; };
+		6DEE40B62B7BD8A000AE7853 /* UserCreditRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCreditRepository.swift; sourceTree = "<group>"; };
+		6DEE40B92B7BD90E00AE7853 /* APIUserCreditDataSourceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUserCreditDataSourceType.swift; sourceTree = "<group>"; };
+		6DEE40BB2B7BD92800AE7853 /* UserCreditDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCreditDTO.swift; sourceTree = "<group>"; };
+		6DEE40BD2B7BD96100AE7853 /* UserCreditResultMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCreditResultMapper.swift; sourceTree = "<group>"; };
+		6DEE40BF2B7BD99200AE7853 /* APIUserCreditDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUserCreditDataSource.swift; sourceTree = "<group>"; };
+		6DEE40C22B7BDA5E00AE7853 /* BottomCreditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCreditViewModel.swift; sourceTree = "<group>"; };
+		6DEE40C42B7BDB7000AE7853 /* BottomCreditFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCreditFactory.swift; sourceTree = "<group>"; };
+		6DEE40C72B7BDCAD00AE7853 /* CreateBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateBottomView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D729A8B2B7CB348005CE25E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D729AA22B7CEA60005CE25E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA042832B73EAEB00EB5DF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D12321A2B7B945500A58092 /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				6D12321B2B7B946500A58092 /* GetStatusType.swift */,
+				6D12321D2B7B948700A58092 /* UserStatusRepositoryType.swift */,
+			);
+			path = Status;
+			sourceTree = "<group>";
+		};
+		6D12321F2B7B94F900A58092 /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				6D1232202B7B950400A58092 /* UserStatusRepository.swift */,
+			);
+			path = Status;
+			sourceTree = "<group>";
+		};
+		6D1232222B7B954C00A58092 /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				6D1232292B7B965800A58092 /* APIUserStatusDataSource.swift */,
+				6D1232232B7B955900A58092 /* APIUserStatusDataSourceType.swift */,
+			);
+			path = Status;
+			sourceTree = "<group>";
+		};
+		6D12322B2B7B96C700A58092 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				6D12322C2B7B96E000A58092 /* SplashViewModel.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		6D1232302B7B981600A58092 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				6D12322E2B7B978000A58092 /* SplashView.swift */,
+				6D1232312B7B982100A58092 /* CreateMainView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		6D703BD72B7BD2FA002A7006 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				6D703BD52B7BD2E5002A7006 /* ConfigView.swift */,
+				6D703BDB2B7BD320002A7006 /* CreateConfigView.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		6D703BD82B7BD304002A7006 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				6D703BD92B7BD313002A7006 /* ShopView.swift */,
+				6D703BDD2B7BD326002A7006 /* CreateShopView.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		6D703BE72B7BD786002A7006 /* Credit */ = {
+			isa = PBXGroup;
+			children = (
+				6D703BE82B7BD790002A7006 /* GetCreditType.swift */,
+				6DEE40B32B7BD7D600AE7853 /* UserCreditRepositoryType.swift */,
+			);
+			path = Credit;
+			sourceTree = "<group>";
+		};
+		6D729A8F2B7CB348005CE25E /* jokesphoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DE118172B7E2ACD00F38B4C /* DialplanDetail */,
+				6DE118162B7E2AC500F38B4C /* UserPranks */,
+				6DDEDFE62B7CF7EF0055107B /* Dialplan */,
+				6D729A9E2B7CE75B005CE25E /* Splash */,
+			);
+			path = jokesphoneUITests;
+			sourceTree = "<group>";
+		};
+		6D729A9E2B7CE75B005CE25E /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				6D729A922B7CB348005CE25E /* SplashViewErrorTests.swift */,
+				6D729A9F2B7CE76F005CE25E /* SplashViewTests.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		6D729AA62B7CEA60005CE25E /* jokesphoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D729AB12B7CEA90005CE25E /* Helpers */,
+				6DE118352B7F5CF700F38B4C /* Mappers */,
+				6DE1181E2B7E924A00F38B4C /* Presentation */,
+				6D729AB22B7CEA9F005CE25E /* Data */,
+				6D729AB32B7CEAA4005CE25E /* Domain */,
+			);
+			path = jokesphoneTests;
+			sourceTree = "<group>";
+		};
+		6D729AB12B7CEA90005CE25E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6D729ABC2B7CEB64005CE25E /* Equatable.swift */,
+				6DE118232B7F47E700F38B4C /* JokesPhonePresentableErrorMapperStub.swift */,
+				6DE1183D2B7F603200F38B4C /* UserPranks */,
+				6DE1183C2B7F602300F38B4C /* Credit */,
+				6DE1183B2B7F600C00F38B4C /* Dialplan */,
+				6DE1183A2B7F5FFB00F38B4C /* Status */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6D729AB22B7CEA9F005CE25E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6D729AB62B7CEAFD005CE25E /* Networking */,
+				6D729AB72B7CEB08005CE25E /* Repositories */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6D729AB32B7CEAA4005CE25E /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				6D729AB42B7CEAF1005CE25E /* GetStatusTests.swift */,
+				6DDEDFEB2B7D307A0055107B /* GetDialplanTests.swift */,
+				6DDEDFED2B7D30850055107B /* GetCreditTests.swift */,
+				6DE118062B7E1F0D00F38B4C /* GetUserPranksTests.swift */,
+				6DE1180C2B7E261900F38B4C /* MakeCallTests.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		6D729AB62B7CEAFD005CE25E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				6D729AB82B7CEB3D005CE25E /* APIUserStatusDataSourceTests.swift */,
+				6DDEDFF32B7D30C60055107B /* APIDialplanDataSourceTests.swift */,
+				6DDEDFF52B7D30D90055107B /* APIUserCreditDataSourceTests.swift */,
+				6DE118042B7E1EF700F38B4C /* APIUserPranksDataSourceTests.swift */,
+				6DE118142B7E29A700F38B4C /* APIMakeCallDataSourceTests.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		6D729AB72B7CEB08005CE25E /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				6D729ABA2B7CEB50005CE25E /* UserStatusRepositoryTests.swift */,
+				6DDEDFEF2B7D30A20055107B /* DialplanRepositoryTests.swift */,
+				6DDEDFF12B7D30B20055107B /* UserCreditRepositoryTests.swift */,
+				6DE118022B7E1EE700F38B4C /* UserPranksRepositoryTests.swift */,
+				6DE118102B7E27DC00F38B4C /* MakeCallRepositoryTests.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		6D9E35DF2B753956000D6925 /* Dialplan */ = {
+			isa = PBXGroup;
+			children = (
+				6DA042DE2B73F56800EB5DF0 /* DialplanView.swift */,
+				6DA042E42B73F7BC00EB5DF0 /* DialplanItemView.swift */,
+				6D9E35E22B753ACA000D6925 /* CreateDialplanDetailView.swift */,
+				6D9E35E02B75397D000D6925 /* DialplanDetailView.swift */,
+			);
+			path = Dialplan;
+			sourceTree = "<group>";
+		};
+		6D9E35E82B753BB0000D6925 /* Dialplan */ = {
+			isa = PBXGroup;
+			children = (
+				6D9E35DB2B74C4EF000D6925 /* JokeDialplanPresentableMapper.swift */,
+				6DA042E22B73F6C200EB5DF0 /* JokeDialplanPresentableItem.swift */,
+				6DA042DA2B73F40200EB5DF0 /* DialplanViewModel.swift */,
+				6D9E35E62B753BA2000D6925 /* DialplanDetailViewModel.swift */,
+			);
+			path = Dialplan;
+			sourceTree = "<group>";
+		};
+		6D9E36032B76218C000D6925 /* Dialplan */ = {
+			isa = PBXGroup;
+			children = (
+				6DA042B72B73EDAD00EB5DF0 /* GetDialplanType.swift */,
+				6DA042BB2B73EE2600EB5DF0 /* DialplanRepositoryType.swift */,
+				6D9E35EF2B754D7A000D6925 /* MakeCallType.swift */,
+				6D9E35F12B754D94000D6925 /* MakeCallRepositoryType.swift */,
+			);
+			path = Dialplan;
+			sourceTree = "<group>";
+		};
+		6D9E36042B76219A000D6925 /* UserPranks */ = {
+			isa = PBXGroup;
+			children = (
+				6D9E36052B7621AA000D6925 /* GetUserPranksType.swift */,
+				6D9E36072B7621CE000D6925 /* UserPranksRepositoryType.swift */,
+			);
+			path = UserPranks;
+			sourceTree = "<group>";
+		};
+		6D9E36092B762206000D6925 /* Dialplan */ = {
+			isa = PBXGroup;
+			children = (
+				6DA042BD2B73EED600EB5DF0 /* DialplanRepository.swift */,
+				6D9E35F32B754DD8000D6925 /* MakeCallRepository.swift */,
+			);
+			path = Dialplan;
+			sourceTree = "<group>";
+		};
+		6D9E360A2B76220F000D6925 /* UserPranks */ = {
+			isa = PBXGroup;
+			children = (
+				6D9E360B2B76222A000D6925 /* UserPranksRepository.swift */,
+			);
+			path = UserPranks;
+			sourceTree = "<group>";
+		};
+		6D9E360D2B76227C000D6925 /* UserPranks */ = {
+			isa = PBXGroup;
+			children = (
+				6D9E36122B762458000D6925 /* APIUserPranksDataSource.swift */,
+				6D9E360E2B762291000D6925 /* APIUserPranksDataSourceType.swift */,
+			);
+			path = UserPranks;
+			sourceTree = "<group>";
+		};
+		6D9E36142B762529000D6925 /* UserPranks */ = {
+			isa = PBXGroup;
+			children = (
+				6D9E36172B76263B000D6925 /* UserPrankPresentableMapper.swift */,
+				6D9E36192B762674000D6925 /* UserPrankPresentableItem.swift */,
+				6D9E36152B762545000D6925 /* UserPranksViewModel.swift */,
+			);
+			path = UserPranks;
+			sourceTree = "<group>";
+		};
+		6D9E361B2B7627FE000D6925 /* UserPranks */ = {
+			isa = PBXGroup;
+			children = (
+				6D9E361C2B762817000D6925 /* UserPranksView.swift */,
+				6D9E361E2B762826000D6925 /* UserPranksItemView.swift */,
+				6D3C53EA2B7692C300B6E09D /* UserPranksStateView.swift */,
+			);
+			path = UserPranks;
+			sourceTree = "<group>";
+		};
+		6DA0427D2B73EAEB00EB5DF0 = {
+			isa = PBXGroup;
+			children = (
+				6D9E35D92B74C2EA000D6925 /* Fonts */,
+				6DA042882B73EAEB00EB5DF0 /* jokesphone */,
+				6D729A8F2B7CB348005CE25E /* jokesphoneUITests */,
+				6D729AA62B7CEA60005CE25E /* jokesphoneTests */,
+				6DA042872B73EAEB00EB5DF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DA042872B73EAEB00EB5DF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DA042862B73EAEB00EB5DF0 /* jokesphone.app */,
+				6D729A8E2B7CB348005CE25E /* jokesphoneUITests.xctest */,
+				6D729AA52B7CEA60005CE25E /* jokesphoneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DA042882B73EAEB00EB5DF0 /* jokesphone */ = {
+			isa = PBXGroup;
+			children = (
+				6D1232152B7B8FB400A58092 /* Info.plist */,
+				6D9E35E92B7541D1000D6925 /* Localizable.xcstrings */,
+				6DA0428D2B73EAED00EB5DF0 /* Assets.xcassets */,
+				6DA042892B73EAEB00EB5DF0 /* jokesphoneApp.swift */,
+				6DA0428B2B73EAEB00EB5DF0 /* MainView.swift */,
+				6DA042972B73EB1500EB5DF0 /* Utils */,
+				6DA042982B73EB1C00EB5DF0 /* Composition Root */,
+				6DA042992B73EB2300EB5DF0 /* UI */,
+				6DA0429A2B73EB2800EB5DF0 /* Presentation */,
+				6DA0429B2B73EB3000EB5DF0 /* Infraestructure */,
+				6DA0429C2B73EB4200EB5DF0 /* Data */,
+				6DA0429D2B73EB4B00EB5DF0 /* Domain */,
+				6DA0428F2B73EAED00EB5DF0 /* Preview Content */,
+			);
+			path = jokesphone;
+			sourceTree = "<group>";
+		};
+		6DA0428F2B73EAED00EB5DF0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6DA042902B73EAED00EB5DF0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6DA042972B73EB1500EB5DF0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6DA042A82B73EBE900EB5DF0 /* Foundation+Extensions.swift */,
+				6DA042E82B73F85500EB5DF0 /* URLCache+imageCache.swift */,
+				6DA042D22B73F2DE00EB5DF0 /* Constants.swift */,
+				6D1232132B7B89A200A58092 /* SoundPlayer.swift */,
+				6D703BD32B7BCDAE002A7006 /* UserDefaultsManager.swift */,
+				6D729A9C2B7CB784005CE25E /* DownloadManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6DA042982B73EB1C00EB5DF0 /* Composition Root */ = {
+			isa = PBXGroup;
+			children = (
+				6D1232332B7B986000A58092 /* SplashFactory.swift */,
+				6D1232352B7B995000A58092 /* MainViewFactory.swift */,
+				6DA042EA2B73F89E00EB5DF0 /* DialplanFactory.swift */,
+				6D9E35E42B753B51000D6925 /* DialplanDetailFactory.swift */,
+				6D9E36202B762B43000D6925 /* UserPrankFactory.swift */,
+				6D703BDF2B7BD402002A7006 /* ConfigFactory.swift */,
+				6D703BE12B7BD42E002A7006 /* ShopFactory.swift */,
+				6DEE40C42B7BDB7000AE7853 /* BottomCreditFactory.swift */,
+			);
+			path = "Composition Root";
+			sourceTree = "<group>";
+		};
+		6DA042992B73EB2300EB5DF0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6DA042E02B73F5CB00EB5DF0 /* LoadingSpinnerView.swift */,
+				6DA042E62B73F80B00EB5DF0 /* CachedAsyncImage.swift */,
+				6D1232302B7B981600A58092 /* Splash */,
+				6DEE40C62B7BDCA000AE7853 /* BottomCredit */,
+				6D9E35DF2B753956000D6925 /* Dialplan */,
+				6D9E361B2B7627FE000D6925 /* UserPranks */,
+				6D703BD72B7BD2FA002A7006 /* Config */,
+				6D703BD82B7BD304002A7006 /* Shop */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		6DA0429A2B73EB2800EB5DF0 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				6DA042DC2B73F52900EB5DF0 /* JokesPhonePresentableErrorMapper.swift */,
+				6D12322B2B7B96C700A58092 /* Splash */,
+				6DEE40C12B7BDA4300AE7853 /* BottomCredit */,
+				6D9E35E82B753BB0000D6925 /* Dialplan */,
+				6D9E36142B762529000D6925 /* UserPranks */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		6DA0429B2B73EB3000EB5DF0 /* Infraestructure */ = {
+			isa = PBXGroup;
+			children = (
+				6DA042A62B73EBC700EB5DF0 /* Data */,
+				6DA042A72B73EBCC00EB5DF0 /* Networking */,
+			);
+			path = Infraestructure;
+			sourceTree = "<group>";
+		};
+		6DA0429C2B73EB4200EB5DF0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6DA042A52B73EBBD00EB5DF0 /* Mapper */,
+				6DA042A42B73EBB600EB5DF0 /* DTOs */,
+				6DA042A32B73EBAF00EB5DF0 /* Networking */,
+				6DA042A22B73EBA700EB5DF0 /* Repositories */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6DA0429D2B73EB4B00EB5DF0 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				6DA042A12B73EB9B00EB5DF0 /* Error */,
+				6DA042A02B73EB9600EB5DF0 /* Interfaces */,
+				6DA0429F2B73EB8000EB5DF0 /* Use Cases */,
+				6DA0429E2B73EB7A00EB5DF0 /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		6DA0429E2B73EB7A00EB5DF0 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				6DA042AA2B73EC4C00EB5DF0 /* JokeDialplan.swift */,
+				6D9E35ED2B754D61000D6925 /* MakeCallResult.swift */,
+				6D9E35FF2B7558EB000D6925 /* UserPrank.swift */,
+				6D1232162B7B941B00A58092 /* UserStatus.swift */,
+				6D703BE52B7BD764002A7006 /* UserCredit.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		6DA0429F2B73EB8000EB5DF0 /* Use Cases */ = {
+			isa = PBXGroup;
+			children = (
+				6DA042AD2B73ED2400EB5DF0 /* GetDialplan.swift */,
+				6D9E35EB2B754D31000D6925 /* MakeCall.swift */,
+				6D9E35FD2B7558AA000D6925 /* GetUserPranks.swift */,
+				6D1232182B7B942D00A58092 /* GetStatus.swift */,
+				6D703BE32B7BD75E002A7006 /* GetCredit.swift */,
+			);
+			path = "Use Cases";
+			sourceTree = "<group>";
+		};
+		6DA042A02B73EB9600EB5DF0 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				6D9E36032B76218C000D6925 /* Dialplan */,
+				6D9E36042B76219A000D6925 /* UserPranks */,
+				6D12321A2B7B945500A58092 /* Status */,
+				6D703BE72B7BD786002A7006 /* Credit */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		6DA042A12B73EB9B00EB5DF0 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				6DA042B92B73EDD800EB5DF0 /* JokesPhoneDomainError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		6DA042A22B73EBA700EB5DF0 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				6D9E36092B762206000D6925 /* Dialplan */,
+				6D9E360A2B76220F000D6925 /* UserPranks */,
+				6D12321F2B7B94F900A58092 /* Status */,
+				6DEE40B52B7BD88F00AE7853 /* Credit */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		6DA042A32B73EBAF00EB5DF0 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				6DA042CE2B73F09600EB5DF0 /* HTTPClientError.swift */,
+				6DA042CC2B73F08500EB5DF0 /* Endpoint.swift */,
+				6DA042CA2B73F07700EB5DF0 /* HTTPMethod.swift */,
+				6DA042C82B73F06600EB5DF0 /* HTTPClient.swift */,
+				6DA042C72B73F05800EB5DF0 /* Dialplan */,
+				6D9E360D2B76227C000D6925 /* UserPranks */,
+				6D1232222B7B954C00A58092 /* Status */,
+				6DEE40B82B7BD90300AE7853 /* Credit */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		6DA042A42B73EBB600EB5DF0 /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				6DA042C52B73EFE000EB5DF0 /* JokeDialplanDTO.swift */,
+				6D9E35F72B754E16000D6925 /* MakeCallResultDTO.swift */,
+				6D9E36012B7559ED000D6925 /* UserPrankDTO.swift */,
+				6D1232252B7B958A00A58092 /* UserStatusDTO.swift */,
+				6DEE40BB2B7BD92800AE7853 /* UserCreditDTO.swift */,
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
+		6DA042A52B73EBBD00EB5DF0 /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				6DA042C32B73EFA600EB5DF0 /* JokesPhoneDomainErrorMapper.swift */,
+				6DA042D02B73F1F800EB5DF0 /* DialplanMapper.swift */,
+				6D9E35F92B754EBA000D6925 /* CallResultMapper.swift */,
+				6D9E36102B762308000D6925 /* UserPranksResultMapper.swift */,
+				6D1232272B7B95D500A58092 /* UserStatusResultMapper.swift */,
+				6DEE40BD2B7BD96100AE7853 /* UserCreditResultMapper.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		6DA042A62B73EBC700EB5DF0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6DA042A72B73EBCC00EB5DF0 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				6DA042D42B73F39C00EB5DF0 /* URLSessionRequestMaker.swift */,
+				6DA042D62B73F3A900EB5DF0 /* URLSessionErrorResolver.swift */,
+				6DA042D82B73F3B700EB5DF0 /* URLSessionHTTPCLient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		6DA042C72B73F05800EB5DF0 /* Dialplan */ = {
+			isa = PBXGroup;
+			children = (
+				6DA042C12B73EF5E00EB5DF0 /* APIDialplanDataSource.swift */,
+				6DA042BF2B73EF2600EB5DF0 /* APIDialplanDataSourceType.swift */,
+				6D9E35FB2B754FAD000D6925 /* APIMakeCallDataSource.swift */,
+				6D9E35F52B754DF5000D6925 /* APIMakeCallDataSourceType.swift */,
+			);
+			path = Dialplan;
+			sourceTree = "<group>";
+		};
+		6DDEDFE62B7CF7EF0055107B /* Dialplan */ = {
+			isa = PBXGroup;
+			children = (
+				6DDEDFE72B7CF80D0055107B /* DialplanViewErrorTests.swift */,
+				6DDEDFE92B7CF8170055107B /* DialplanViewTests.swift */,
+			);
+			path = Dialplan;
+			sourceTree = "<group>";
+		};
+		6DE118162B7E2AC500F38B4C /* UserPranks */ = {
+			isa = PBXGroup;
+			children = (
+				6DE118182B7E2AFF00F38B4C /* UserPranksErrorTests.swift */,
+				6DE1181A2B7E2C9B00F38B4C /* UserPranksTests.swift */,
+			);
+			path = UserPranks;
+			sourceTree = "<group>";
+		};
+		6DE118172B7E2ACD00F38B4C /* DialplanDetail */ = {
+			isa = PBXGroup;
+			children = (
+				6DE1181C2B7E426300F38B4C /* DialplanDetailTests.swift */,
+			);
+			path = DialplanDetail;
+			sourceTree = "<group>";
+		};
+		6DE1181E2B7E924A00F38B4C /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				6DE1181F2B7E925D00F38B4C /* SplashViewModelTests.swift */,
+				6DE118252B7F4DE200F38B4C /* BottomCreditViewModelTests.swift */,
+				6DE118292B7F503D00F38B4C /* DialplanViewModelTests.swift */,
+				6DE1182D2B7F566500F38B4C /* DialplanDetailViewModelTests.swift */,
+				6DE118312B7F58C700F38B4C /* UserPranksViewModelTests.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		6DE118352B7F5CF700F38B4C /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+				6DE118362B7F5D0E00F38B4C /* JokesPhonePresentableErrorMapperTests.swift */,
+				6DE118382B7F5DCE00F38B4C /* JokeDialplanPresentableMapperTests.swift */,
+				6DE1183E2B7F605C00F38B4C /* UserPrankPresentableMapperTests.swift */,
+			);
+			path = Mappers;
+			sourceTree = "<group>";
+		};
+		6DE1183A2B7F5FFB00F38B4C /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				6D729ABE2B7CF002005CE25E /* UserStatusRepositoryStub.swift */,
+				6D729AC02B7CF29C005CE25E /* APIUserStatusDataSourceStub.swift */,
+				6DE118212B7F47A500F38B4C /* GetStatusStub.swift */,
+			);
+			path = Status;
+			sourceTree = "<group>";
+		};
+		6DE1183B2B7F600C00F38B4C /* Dialplan */ = {
+			isa = PBXGroup;
+			children = (
+				6DDEDFF72B7D31710055107B /* DialplanRepositoryStub.swift */,
+				6DE117FC2B7E12DD00F38B4C /* APIDialplanDataSourceStub.swift */,
+				6DE1180E2B7E267800F38B4C /* MakeCallRepositoryStub.swift */,
+				6DE118122B7E287E00F38B4C /* APIMakeCallDataSourceStub.swift */,
+				6DE1182B2B7F50A800F38B4C /* GetDialplanStub.swift */,
+				6DE1182F2B7F56A800F38B4C /* MakeCallStub.swift */,
+			);
+			path = Dialplan;
+			sourceTree = "<group>";
+		};
+		6DE1183C2B7F602300F38B4C /* Credit */ = {
+			isa = PBXGroup;
+			children = (
+				6DE117FE2B7E16C700F38B4C /* UserCreditRepositoryStub.swift */,
+				6DE118002B7E18B800F38B4C /* APIUserCreditDataSourceStub.swift */,
+				6DE118272B7F4E4700F38B4C /* GetCreditStub.swift */,
+			);
+			path = Credit;
+			sourceTree = "<group>";
+		};
+		6DE1183D2B7F603200F38B4C /* UserPranks */ = {
+			isa = PBXGroup;
+			children = (
+				6DE118082B7E1F7900F38B4C /* UserPranksRepositoryStub.swift */,
+				6DE1180A2B7E247800F38B4C /* APIUserPranksDataSourceStub.swift */,
+				6DE118332B7F58F600F38B4C /* GetUserPranksStub.swift */,
+			);
+			path = UserPranks;
+			sourceTree = "<group>";
+		};
+		6DEE40B52B7BD88F00AE7853 /* Credit */ = {
+			isa = PBXGroup;
+			children = (
+				6DEE40B62B7BD8A000AE7853 /* UserCreditRepository.swift */,
+			);
+			path = Credit;
+			sourceTree = "<group>";
+		};
+		6DEE40B82B7BD90300AE7853 /* Credit */ = {
+			isa = PBXGroup;
+			children = (
+				6DEE40BF2B7BD99200AE7853 /* APIUserCreditDataSource.swift */,
+				6DEE40B92B7BD90E00AE7853 /* APIUserCreditDataSourceType.swift */,
+			);
+			path = Credit;
+			sourceTree = "<group>";
+		};
+		6DEE40C12B7BDA4300AE7853 /* BottomCredit */ = {
+			isa = PBXGroup;
+			children = (
+				6DEE40C22B7BDA5E00AE7853 /* BottomCreditViewModel.swift */,
+			);
+			path = BottomCredit;
+			sourceTree = "<group>";
+		};
+		6DEE40C62B7BDCA000AE7853 /* BottomCredit */ = {
+			isa = PBXGroup;
+			children = (
+				6D9E35DD2B74E463000D6925 /* BottomCreditView.swift */,
+				6DEE40C72B7BDCAD00AE7853 /* CreateBottomView.swift */,
+			);
+			path = BottomCredit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D729A8D2B7CB348005CE25E /* jokesphoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D729A982B7CB348005CE25E /* Build configuration list for PBXNativeTarget "jokesphoneUITests" */;
+			buildPhases = (
+				6D729A8A2B7CB348005CE25E /* Sources */,
+				6D729A8B2B7CB348005CE25E /* Frameworks */,
+				6D729A8C2B7CB348005CE25E /* Resources */,
+				6D729A992B7CB35D005CE25E /* SwiftLint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D729A9B2B7CB373005CE25E /* PBXTargetDependency */,
+				6D729A952B7CB348005CE25E /* PBXTargetDependency */,
+			);
+			name = jokesphoneUITests;
+			productName = jokesphoneUITests;
+			productReference = 6D729A8E2B7CB348005CE25E /* jokesphoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		6D729AA42B7CEA60005CE25E /* jokesphoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D729AAB2B7CEA60005CE25E /* Build configuration list for PBXNativeTarget "jokesphoneTests" */;
+			buildPhases = (
+				6D729AA12B7CEA60005CE25E /* Sources */,
+				6D729AA22B7CEA60005CE25E /* Frameworks */,
+				6D729AA32B7CEA60005CE25E /* Resources */,
+				6D729AAE2B7CEA6F005CE25E /* SwiftLint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D729AB02B7CEA7E005CE25E /* PBXTargetDependency */,
+				6D729AAA2B7CEA60005CE25E /* PBXTargetDependency */,
+			);
+			name = jokesphoneTests;
+			productName = jokesphoneTests;
+			productReference = 6D729AA52B7CEA60005CE25E /* jokesphoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6DA042852B73EAEB00EB5DF0 /* jokesphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DA042942B73EAED00EB5DF0 /* Build configuration list for PBXNativeTarget "jokesphone" */;
+			buildPhases = (
+				6DA042822B73EAEB00EB5DF0 /* Sources */,
+				6DA042832B73EAEB00EB5DF0 /* Frameworks */,
+				6DA042842B73EAEB00EB5DF0 /* Resources */,
+				6DA042B42B73ED8500EB5DF0 /* SwiftLint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DA042B62B73ED9200EB5DF0 /* PBXTargetDependency */,
+			);
+			name = jokesphone;
+			packageProductDependencies = (
+			);
+			productName = jokesphone;
+			productReference = 6DA042862B73EAEB00EB5DF0 /* jokesphone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DA0427E2B73EAEB00EB5DF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					6D729A8D2B7CB348005CE25E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 6DA042852B73EAEB00EB5DF0;
+					};
+					6D729AA42B7CEA60005CE25E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 6DA042852B73EAEB00EB5DF0;
+					};
+					6DA042852B73EAEB00EB5DF0 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 6DA042812B73EAEB00EB5DF0 /* Build configuration list for PBXProject "jokesphone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DA0427D2B73EAEB00EB5DF0;
+			packageReferences = (
+				6DA042AF2B73ED6100EB5DF0 /* XCRemoteSwiftPackageReference "SwiftLint" */,
+			);
+			productRefGroup = 6DA042872B73EAEB00EB5DF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DA042852B73EAEB00EB5DF0 /* jokesphone */,
+				6D729A8D2B7CB348005CE25E /* jokesphoneUITests */,
+				6D729AA42B7CEA60005CE25E /* jokesphoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D729A8C2B7CB348005CE25E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D729AA32B7CEA60005CE25E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA042842B73EAEB00EB5DF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D9E35DA2B74C2EA000D6925 /* Fonts in Resources */,
+				6DA042912B73EAED00EB5DF0 /* Preview Assets.xcassets in Resources */,
+				6D9E35EA2B7541D1000D6925 /* Localizable.xcstrings in Resources */,
+				6DA0428E2B73EAED00EB5DF0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D729A992B7CB35D005CE25E /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse \n    echo \"warning: SwiftLint not installed\"\nfi\n";
+		};
+		6D729AAE2B7CEA6F005CE25E /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse \n    echo \"warning: SwiftLint not installed\"\nfi\n";
+		};
+		6DA042B42B73ED8500EB5DF0 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse \n    echo \"warning: SwiftLint not installed\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D729A8A2B7CB348005CE25E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D729A932B7CB348005CE25E /* SplashViewErrorTests.swift in Sources */,
+				6DDEDFEA2B7CF8170055107B /* DialplanViewTests.swift in Sources */,
+				6D729AA02B7CE76F005CE25E /* SplashViewTests.swift in Sources */,
+				6DDEDFE82B7CF80D0055107B /* DialplanViewErrorTests.swift in Sources */,
+				6DE118192B7E2AFF00F38B4C /* UserPranksErrorTests.swift in Sources */,
+				6DE1181D2B7E426300F38B4C /* DialplanDetailTests.swift in Sources */,
+				6DE1181B2B7E2C9B00F38B4C /* UserPranksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D729AA12B7CEA60005CE25E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DE1183F2B7F605C00F38B4C /* UserPrankPresentableMapperTests.swift in Sources */,
+				6DE1180F2B7E267800F38B4C /* MakeCallRepositoryStub.swift in Sources */,
+				6D729ABB2B7CEB50005CE25E /* UserStatusRepositoryTests.swift in Sources */,
+				6DE118092B7E1F7900F38B4C /* UserPranksRepositoryStub.swift in Sources */,
+				6DE118052B7E1EF700F38B4C /* APIUserPranksDataSourceTests.swift in Sources */,
+				6DE118152B7E29A700F38B4C /* APIMakeCallDataSourceTests.swift in Sources */,
+				6DE118302B7F56A800F38B4C /* MakeCallStub.swift in Sources */,
+				6DDEDFF42B7D30C60055107B /* APIDialplanDataSourceTests.swift in Sources */,
+				6DE118372B7F5D0E00F38B4C /* JokesPhonePresentableErrorMapperTests.swift in Sources */,
+				6DE118032B7E1EE700F38B4C /* UserPranksRepositoryTests.swift in Sources */,
+				6DDEDFF22B7D30B20055107B /* UserCreditRepositoryTests.swift in Sources */,
+				6DE118262B7F4DE200F38B4C /* BottomCreditViewModelTests.swift in Sources */,
+				6D729AB92B7CEB3D005CE25E /* APIUserStatusDataSourceTests.swift in Sources */,
+				6DE118072B7E1F0D00F38B4C /* GetUserPranksTests.swift in Sources */,
+				6DE117FD2B7E12DD00F38B4C /* APIDialplanDataSourceStub.swift in Sources */,
+				6D729AB52B7CEAF1005CE25E /* GetStatusTests.swift in Sources */,
+				6DE1180B2B7E247800F38B4C /* APIUserPranksDataSourceStub.swift in Sources */,
+				6DE1182E2B7F566500F38B4C /* DialplanDetailViewModelTests.swift in Sources */,
+				6D729AC12B7CF29C005CE25E /* APIUserStatusDataSourceStub.swift in Sources */,
+				6DDEDFF02B7D30A20055107B /* DialplanRepositoryTests.swift in Sources */,
+				6DE118322B7F58C700F38B4C /* UserPranksViewModelTests.swift in Sources */,
+				6D729ABD2B7CEB64005CE25E /* Equatable.swift in Sources */,
+				6DDEDFEE2B7D30850055107B /* GetCreditTests.swift in Sources */,
+				6DDEDFEC2B7D307A0055107B /* GetDialplanTests.swift in Sources */,
+				6DE118392B7F5DCE00F38B4C /* JokeDialplanPresentableMapperTests.swift in Sources */,
+				6DE118222B7F47A500F38B4C /* GetStatusStub.swift in Sources */,
+				6DE118242B7F47E700F38B4C /* JokesPhonePresentableErrorMapperStub.swift in Sources */,
+				6DE1182C2B7F50A800F38B4C /* GetDialplanStub.swift in Sources */,
+				6DE118012B7E18B800F38B4C /* APIUserCreditDataSourceStub.swift in Sources */,
+				6DE1180D2B7E261900F38B4C /* MakeCallTests.swift in Sources */,
+				6DE117FF2B7E16C700F38B4C /* UserCreditRepositoryStub.swift in Sources */,
+				6D729ABF2B7CF002005CE25E /* UserStatusRepositoryStub.swift in Sources */,
+				6DE118112B7E27DC00F38B4C /* MakeCallRepositoryTests.swift in Sources */,
+				6DDEDFF62B7D30D90055107B /* APIUserCreditDataSourceTests.swift in Sources */,
+				6DE118342B7F58F600F38B4C /* GetUserPranksStub.swift in Sources */,
+				6DE1182A2B7F503D00F38B4C /* DialplanViewModelTests.swift in Sources */,
+				6DE118202B7E925D00F38B4C /* SplashViewModelTests.swift in Sources */,
+				6DE118282B7F4E4700F38B4C /* GetCreditStub.swift in Sources */,
+				6DE118132B7E287E00F38B4C /* APIMakeCallDataSourceStub.swift in Sources */,
+				6DDEDFF82B7D31710055107B /* DialplanRepositoryStub.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA042822B73EAEB00EB5DF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA042C62B73EFE000EB5DF0 /* JokeDialplanDTO.swift in Sources */,
+				6DA042D32B73F2DE00EB5DF0 /* Constants.swift in Sources */,
+				6D1232262B7B958A00A58092 /* UserStatusDTO.swift in Sources */,
+				6DA042EB2B73F89E00EB5DF0 /* DialplanFactory.swift in Sources */,
+				6DA0428C2B73EAEB00EB5DF0 /* MainView.swift in Sources */,
+				6D3C53EB2B7692C300B6E09D /* UserPranksStateView.swift in Sources */,
+				6DA042DD2B73F52A00EB5DF0 /* JokesPhonePresentableErrorMapper.swift in Sources */,
+				6D9E361D2B762817000D6925 /* UserPranksView.swift in Sources */,
+				6D703BE42B7BD75E002A7006 /* GetCredit.swift in Sources */,
+				6DEE40BC2B7BD92800AE7853 /* UserCreditDTO.swift in Sources */,
+				6DEE40BA2B7BD90E00AE7853 /* APIUserCreditDataSourceType.swift in Sources */,
+				6D1232322B7B982200A58092 /* CreateMainView.swift in Sources */,
+				6D12322A2B7B965800A58092 /* APIUserStatusDataSource.swift in Sources */,
+				6D1232192B7B942D00A58092 /* GetStatus.swift in Sources */,
+				6D1232212B7B950400A58092 /* UserStatusRepository.swift in Sources */,
+				6DEE40B42B7BD7D600AE7853 /* UserCreditRepositoryType.swift in Sources */,
+				6DA0428A2B73EAEB00EB5DF0 /* jokesphoneApp.swift in Sources */,
+				6D9E36162B762545000D6925 /* UserPranksViewModel.swift in Sources */,
+				6DA042C02B73EF2600EB5DF0 /* APIDialplanDataSourceType.swift in Sources */,
+				6DA042C42B73EFA600EB5DF0 /* JokesPhoneDomainErrorMapper.swift in Sources */,
+				6DA042A92B73EBE900EB5DF0 /* Foundation+Extensions.swift in Sources */,
+				6DEE40C82B7BDCAD00AE7853 /* CreateBottomView.swift in Sources */,
+				6DA042E52B73F7BC00EB5DF0 /* DialplanItemView.swift in Sources */,
+				6DEE40C52B7BDB7000AE7853 /* BottomCreditFactory.swift in Sources */,
+				6DA042C22B73EF5E00EB5DF0 /* APIDialplanDataSource.swift in Sources */,
+				6D1232172B7B941B00A58092 /* UserStatus.swift in Sources */,
+				6DA042CF2B73F09600EB5DF0 /* HTTPClientError.swift in Sources */,
+				6D703BE92B7BD790002A7006 /* GetCreditType.swift in Sources */,
+				6DA042AE2B73ED2400EB5DF0 /* GetDialplan.swift in Sources */,
+				6D12322F2B7B978000A58092 /* SplashView.swift in Sources */,
+				6DA042E72B73F80B00EB5DF0 /* CachedAsyncImage.swift in Sources */,
+				6DEE40BE2B7BD96100AE7853 /* UserCreditResultMapper.swift in Sources */,
+				6D729A9D2B7CB784005CE25E /* DownloadManager.swift in Sources */,
+				6DEE40C32B7BDA5E00AE7853 /* BottomCreditViewModel.swift in Sources */,
+				6D9E36022B7559ED000D6925 /* UserPrankDTO.swift in Sources */,
+				6D1232242B7B955900A58092 /* APIUserStatusDataSourceType.swift in Sources */,
+				6D9E35DE2B74E463000D6925 /* BottomCreditView.swift in Sources */,
+				6D9E35FE2B7558AA000D6925 /* GetUserPranks.swift in Sources */,
+				6D1232362B7B995000A58092 /* MainViewFactory.swift in Sources */,
+				6D9E36212B762B43000D6925 /* UserPrankFactory.swift in Sources */,
+				6D9E35EC2B754D31000D6925 /* MakeCall.swift in Sources */,
+				6D1232142B7B89A200A58092 /* SoundPlayer.swift in Sources */,
+				6D9E36082B7621CE000D6925 /* UserPranksRepositoryType.swift in Sources */,
+				6D9E36062B7621AA000D6925 /* GetUserPranksType.swift in Sources */,
+				6DA042CB2B73F07700EB5DF0 /* HTTPMethod.swift in Sources */,
+				6D9E361F2B762826000D6925 /* UserPranksItemView.swift in Sources */,
+				6D9E35F62B754DF5000D6925 /* APIMakeCallDataSourceType.swift in Sources */,
+				6DA042D52B73F39C00EB5DF0 /* URLSessionRequestMaker.swift in Sources */,
+				6D9E361A2B762674000D6925 /* UserPrankPresentableItem.swift in Sources */,
+				6DA042D72B73F3A900EB5DF0 /* URLSessionErrorResolver.swift in Sources */,
+				6D9E36002B7558EB000D6925 /* UserPrank.swift in Sources */,
+				6D9E35E52B753B51000D6925 /* DialplanDetailFactory.swift in Sources */,
+				6D9E35FC2B754FAD000D6925 /* APIMakeCallDataSource.swift in Sources */,
+				6DA042BA2B73EDD800EB5DF0 /* JokesPhoneDomainError.swift in Sources */,
+				6D9E36182B76263B000D6925 /* UserPrankPresentableMapper.swift in Sources */,
+				6DA042CD2B73F08500EB5DF0 /* Endpoint.swift in Sources */,
+				6DEE40C02B7BD99200AE7853 /* APIUserCreditDataSource.swift in Sources */,
+				6D9E35F22B754D94000D6925 /* MakeCallRepositoryType.swift in Sources */,
+				6D9E35F42B754DD8000D6925 /* MakeCallRepository.swift in Sources */,
+				6DA042AB2B73EC4C00EB5DF0 /* JokeDialplan.swift in Sources */,
+				6DA042E92B73F85500EB5DF0 /* URLCache+imageCache.swift in Sources */,
+				6D703BE22B7BD42E002A7006 /* ShopFactory.swift in Sources */,
+				6D703BDE2B7BD326002A7006 /* CreateShopView.swift in Sources */,
+				6D9E35E72B753BA2000D6925 /* DialplanDetailViewModel.swift in Sources */,
+				6D9E35F02B754D7A000D6925 /* MakeCallType.swift in Sources */,
+				6D9E360C2B76222A000D6925 /* UserPranksRepository.swift in Sources */,
+				6D12321E2B7B948700A58092 /* UserStatusRepositoryType.swift in Sources */,
+				6DA042C92B73F06600EB5DF0 /* HTTPClient.swift in Sources */,
+				6D12322D2B7B96E000A58092 /* SplashViewModel.swift in Sources */,
+				6D703BE62B7BD764002A7006 /* UserCredit.swift in Sources */,
+				6D9E35DC2B74C4EF000D6925 /* JokeDialplanPresentableMapper.swift in Sources */,
+				6DA042BC2B73EE2600EB5DF0 /* DialplanRepositoryType.swift in Sources */,
+				6DA042DF2B73F56800EB5DF0 /* DialplanView.swift in Sources */,
+				6D9E35E12B75397D000D6925 /* DialplanDetailView.swift in Sources */,
+				6D9E360F2B762291000D6925 /* APIUserPranksDataSourceType.swift in Sources */,
+				6D9E35E32B753ACA000D6925 /* CreateDialplanDetailView.swift in Sources */,
+				6D703BE02B7BD402002A7006 /* ConfigFactory.swift in Sources */,
+				6D1232342B7B986000A58092 /* SplashFactory.swift in Sources */,
+				6D9E36132B762458000D6925 /* APIUserPranksDataSource.swift in Sources */,
+				6D9E36112B762308000D6925 /* UserPranksResultMapper.swift in Sources */,
+				6D703BDC2B7BD320002A7006 /* CreateConfigView.swift in Sources */,
+				6D703BD62B7BD2E5002A7006 /* ConfigView.swift in Sources */,
+				6DA042D12B73F1F800EB5DF0 /* DialplanMapper.swift in Sources */,
+				6DA042B82B73EDAD00EB5DF0 /* GetDialplanType.swift in Sources */,
+				6DA042DB2B73F40200EB5DF0 /* DialplanViewModel.swift in Sources */,
+				6D703BD42B7BCDAE002A7006 /* UserDefaultsManager.swift in Sources */,
+				6D12321C2B7B946500A58092 /* GetStatusType.swift in Sources */,
+				6D9E35FA2B754EBA000D6925 /* CallResultMapper.swift in Sources */,
+				6D9E35EE2B754D61000D6925 /* MakeCallResult.swift in Sources */,
+				6D1232282B7B95D500A58092 /* UserStatusResultMapper.swift in Sources */,
+				6DA042BE2B73EED600EB5DF0 /* DialplanRepository.swift in Sources */,
+				6DA042D92B73F3B700EB5DF0 /* URLSessionHTTPCLient.swift in Sources */,
+				6DEE40B72B7BD8A000AE7853 /* UserCreditRepository.swift in Sources */,
+				6DA042E12B73F5CB00EB5DF0 /* LoadingSpinnerView.swift in Sources */,
+				6D9E35F82B754E16000D6925 /* MakeCallResultDTO.swift in Sources */,
+				6D703BDA2B7BD313002A7006 /* ShopView.swift in Sources */,
+				6DA042E32B73F6C200EB5DF0 /* JokeDialplanPresentableItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D729A952B7CB348005CE25E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DA042852B73EAEB00EB5DF0 /* jokesphone */;
+			targetProxy = 6D729A942B7CB348005CE25E /* PBXContainerItemProxy */;
+		};
+		6D729A9B2B7CB373005CE25E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 6D729A9A2B7CB373005CE25E /* SwiftLintPlugin */;
+		};
+		6D729AAA2B7CEA60005CE25E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DA042852B73EAEB00EB5DF0 /* jokesphone */;
+			targetProxy = 6D729AA92B7CEA60005CE25E /* PBXContainerItemProxy */;
+		};
+		6D729AB02B7CEA7E005CE25E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 6D729AAF2B7CEA7E005CE25E /* SwiftLintPlugin */;
+		};
+		6DA042B62B73ED9200EB5DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 6DA042B52B73ED9200EB5DF0 /* SwiftLintPlugin */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6D729A962B7CB348005CE25E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Q5Q7B58ES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cashitapp.jokesphoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jokesphone;
+			};
+			name = Debug;
+		};
+		6D729A972B7CB348005CE25E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Q5Q7B58ES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cashitapp.jokesphoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jokesphone;
+			};
+			name = Release;
+		};
+		6D729AAC2B7CEA60005CE25E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jokesphone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/jokesphone";
+			};
+			name = Debug;
+		};
+		6D729AAD2B7CEA60005CE25E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jokesphone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/jokesphone";
+			};
+			name = Release;
+		};
+		6DA042922B73EAED00EB5DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DA042932B73EAED00EB5DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DA042952B73EAED00EB5DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"jokesphone/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Q5Q7B58ES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = jokesphone/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone access is needed to record the reaction user";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cashitapp.jokesphone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DA042962B73EAED00EB5DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"jokesphone/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Q5Q7B58ES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = jokesphone/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone access is needed to record the reaction user";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cashitapp.jokesphone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D729A982B7CB348005CE25E /* Build configuration list for PBXNativeTarget "jokesphoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D729A962B7CB348005CE25E /* Debug */,
+				6D729A972B7CB348005CE25E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D729AAB2B7CEA60005CE25E /* Build configuration list for PBXNativeTarget "jokesphoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D729AAC2B7CEA60005CE25E /* Debug */,
+				6D729AAD2B7CEA60005CE25E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DA042812B73EAEB00EB5DF0 /* Build configuration list for PBXProject "jokesphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DA042922B73EAED00EB5DF0 /* Debug */,
+				6DA042932B73EAED00EB5DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DA042942B73EAED00EB5DF0 /* Build configuration list for PBXNativeTarget "jokesphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DA042952B73EAED00EB5DF0 /* Debug */,
+				6DA042962B73EAED00EB5DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6DA042AF2B73ED6100EB5DF0 /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/SwiftLint";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.54.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6D729A9A2B7CB373005CE25E /* SwiftLintPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DA042AF2B73ED6100EB5DF0 /* XCRemoteSwiftPackageReference "SwiftLint" */;
+			productName = "plugin:SwiftLintPlugin";
+		};
+		6D729AAF2B7CEA7E005CE25E /* SwiftLintPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DA042AF2B73ED6100EB5DF0 /* XCRemoteSwiftPackageReference "SwiftLint" */;
+			productName = "plugin:SwiftLintPlugin";
+		};
+		6DA042B52B73ED9200EB5DF0 /* SwiftLintPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DA042AF2B73ED6100EB5DF0 /* XCRemoteSwiftPackageReference "SwiftLint" */;
+			productName = "plugin:SwiftLintPlugin";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6DA0427E2B73EAEB00EB5DF0 /* Project object */;
+}
